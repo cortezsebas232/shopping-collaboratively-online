@@ -1,0 +1,75 @@
+.checkoutProduct{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: auto;
+    width: auto;
+    display: flex;
+}
+.checkoutProduct_info {
+    padding-left: 20px;
+}
+.checkoutProduct_info > button {
+    background-color: #440a67;
+    border: none;
+    color: white;
+    padding: 7px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20px;
+    opacity: 1;
+    margin-top: 10px;
+}
+.checkoutProduct_info > button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  opacity: 0.6;
+}
+.checkout__right > button {
+    background-color: #440a67;
+    border: none;
+    color: white;
+    padding: 7px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20px;
+    opacity: 1;
+    margin-top: 10px;
+}
+.checkout__right > button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  opacity: 0.6;
+}
+
+.subtotal {
+    background-color: #FFE3FE;
+    margin-left: 20px;
+}
+.checkoutProduct_image{
+    object-fit: contain;
+    width: 180px;
+    height: 180px;
+}
+.checkoutProduct_rating{
+    display: flex;
+}
+.checkoutProduct_title{
+    font-size: 17px;
+    font-weight: 800;
+}
+.star{
+    color: goldenrod;
+}
+
+.btn-flat {
+    background-color: #580d87;
+    color: white;
+    border-radius: 20px;
+}
+
+.btn-flat:hover {
+    background-color: #440a67;
+    color: #fff;
+}

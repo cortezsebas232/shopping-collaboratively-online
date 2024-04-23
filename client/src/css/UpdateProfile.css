@@ -1,0 +1,25 @@
+.main-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+    height: 500px;
+}
+
+.profile-form {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+    height: 100%;
+}
+
+.btn-flat {
+    background-color: #580d87;
+    color: white;
+}
+
+.btn-flat:hover {
+    background-color: #440a67;
+    color: #fff;
+}

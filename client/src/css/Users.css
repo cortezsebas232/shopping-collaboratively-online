@@ -1,0 +1,138 @@
+.user__row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+    align-items: center;
+}
+
+.card-inline {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.users-heading {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    color: #440a67;
+
+}
+
+.card {
+    background: #fff;
+    margin-bottom: 50px;
+    transition: 0.3s;
+    height: 400px;
+    width: 300px;
+    margin: 30px;
+}
+
+.card-header {
+    text-align: center;
+    height: 80px;
+    background: linear-gradient(to right, #440a67, #b4aee8);
+    color: #fff;
+}
+
+.card-body {
+    padding: 30px 20px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.card-body .btn {
+    display: block;
+    color: #fff;
+    text-align: center;
+    background: linear-gradient(to right, #440a67, #b4aee8);
+    margin-top: 30px;
+    text-decoration: none;
+    padding: 10px 5px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+}
+
+.review {
+    width: 23%;
+    background: #fff;
+    margin-bottom: 50px;
+    transition: 0.3s;
+    height: 400px;
+    width: 300px;
+    margin: 30px;
+}
+
+@media screen and (max-width: 1000px) {
+    .card {
+        width: 40% !important;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .card {
+        width: 80% !important;
+    }
+}
+
+.card-body > button {
+    background-color: #440a67;
+    border: none;
+    color: white;
+    padding: 7px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20px;
+    opacity: 1;
+    margin-top: 10px;
+}
+
+.shareBasket__link > button {
+    background-color: #440a67;
+    border: none;
+    color: white;
+    padding: 7px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20px;
+    opacity: 1;
+    margin-top: 20px;
+}
+
+.user__dashboard {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card-body > button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    opacity: 0.6;
+}
+
+.share-btn {
+    background-color: #440a67;
+    border: none;
+    color: white;
+    padding: 7px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20px;
+    opacity: 1;
+    margin-top: 10px;
+}
+
+.share-btn {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    opacity: 0.6;
+}

@@ -1,0 +1,94 @@
+@font-face {
+    font-family: poppins-bold;
+    src: url(../resources/Poppins-Bold.ttf);
+}
+
+.login {
+    font-family: poppins-bold;
+    height: auto;
+    display: flex;
+}
+
+
+.login__images {
+    margin-top: 4%;
+    width: 63%;
+    object-fit: contain;
+}
+
+.login__container {
+    width: 75%;
+    height: 65%;
+    display :flex;
+    padding: 10px;
+    background-color: rgba(255, 227, 254, 0.38);
+    flex-direction: column;
+    margin-top: 80px;
+    margin-left: 15%;
+    border-radius: 20px;
+}
+
+.login__container > h3 {
+    font-weight: 330;
+    color:black;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.login__container > form > center > input {
+    height: 33px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    background-color: white;
+    width: 92%;
+    border: 0.5px solid gray;
+    border-radius: 5px;
+}
+
+.login__container > form > center > input::-webkit-input-placeholder {
+    font-size: 22px;
+    color: rgb(170, 170, 170);
+    padding-left: 10px;
+    padding-top: 40px;
+}
+
+.login__login {
+    background-color: #440a67;;
+    border: none;
+    width: 196px;
+    height: 38px;
+    border-radius: 3px;
+    border: 1px sollid #440a67;
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.login__container > form > center > hr {
+    margin: 25px 30%;
+    color: rgb(221, 221, 221);
+    border: 1px solid;
+    width: 20%;
+}
+
+.login__container > form > center > h6 {
+    margin: 20px;
+    color: #4267b2;
+    font-weight: 400;
+    text-align: center;
+}
+
+.login__createNewAccount {
+    width: 185px;
+    height: 43px;
+    color: #ffffff;
+    border-radius: 2px;
+    background-color: #440a67;;
+    border: none;
+    margin-top: 10px;
+    font-family: poppins-bold;
+}
+
+

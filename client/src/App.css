@@ -1,0 +1,38 @@
+* {
+  box-sizing: inherit;
+}
+
+.row {
+  box-sizing: border-box;
+}
+
+.app {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background-color: #c483c4;
+  overflow: hidden;
+}
+
+.app__body {
+  display: flex;
+  background-color: #93329e;
+  /* margin-top: -50px; */
+  height: 100vh;
+  width:100vw;
+  box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.75);
+}
+
+.app__bodySocial {
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+}
+
+.h4, h4{
+  font-size: 1rem;
+}
+
+p {
+  margin-bottom: 0;
+}
